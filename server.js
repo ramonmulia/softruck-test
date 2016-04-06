@@ -16,5 +16,5 @@ app.use(bodyParser.urlencoded({
 app.use('/api/v1', informationRoute);
 
 app.listen(8008, function() {
-  console.log('Example app listening on port 3000!');
+  console.log('Example app listening on port 8008!');
 });

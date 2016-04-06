@@ -1,7 +1,7 @@
 {
   "name": "softruck-test",
   "version": "1.0.0",
-  "main": "server/server.js",
+  "main": "server.js",
   "scripts": {
     "test": "gulp test",
     "start": "npm install && node server.js"
