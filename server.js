@@ -1,6 +1,7 @@
 var express = require('express');
 var cors = require('cors');
 var bodyParser = require('body-parser');
+var db = require('./lib/db/db');
 var app = express();
 
 var informationRoute = require('./lib/information/information-routes')();
@@ -16,5 +17,7 @@ app.use(bodyParser.urlencoded({
 app.use('/api/v1', informationRoute);
 
 app.listen(8008, function() {
-  console.log('Example app listening on port 8008!');
+  db.connect(function() {
+    console.log('Server listening on port: '+8008);
+  });
 });
