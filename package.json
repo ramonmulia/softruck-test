@@ -25,6 +25,7 @@
     "cors": "^2.7.1",
     "crawler": "^0.4.3",
     "express": "^4.13.4",
+    "iconv-lite": "^0.4.13",
     "mongoose": "^4.4.11",
     "request": "^2.69.0"
   }
