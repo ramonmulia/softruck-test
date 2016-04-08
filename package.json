@@ -3,30 +3,24 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "gulp test",
     "start": "npm install && node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ramonmulia/softruck-test.git"
   },
-  "keywords": [
-    "test"
-  ],
   "author": "Ramon Mulia",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ramonmulia/softruck-test/issues"
-  },
   "homepage": "https://github.com/ramonmulia/softruck-test#readme",
   "dependencies": {
     "async": "^2.0.0-rc.2",
     "body-parser": "^1.15.0",
+    "connect-timeout": "^1.7.0",
     "cors": "^2.7.1",
     "crawler": "^0.4.3",
     "express": "^4.13.4",
     "iconv-lite": "^0.4.13",
     "mongoose": "^4.4.11",
+    "morgan": "^1.7.0",
     "request": "^2.69.0"
   }
 }
